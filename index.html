@@ -18,7 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Proyecto Pokemon</title>
   </head>
   <body>
@@ -90,77 +90,215 @@
     <main class="container">
       <section>
         <div
-        id="cajaBanner"
-        class="carousel slide cajaBanner"
-        data-bs-ride="true"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#cajaBanner"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#cajaBanner"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#cajaBanner"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/slider 1.webp"
-              class="d-block w-100 imgBanner"
-              alt="bitcoin"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/slider 2.webp"
-              class="d-block w-100 imgBanner"
-              alt="cajero"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/slider 3.webp"
-              class="d-block w-100 imgBanner"
-              alt="dolar"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#cajaBanner"
-          data-bs-slide="prev"
+          id="cajaBanner"
+          class="carousel slide cajaBanner"
+          data-bs-ride="true"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#cajaBanner"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div>
-        <p>Las siguientes imagens fueron tomadas de <a href="https://www.pokemon.com/el/pokedex/">https://www.pokemon.com/el/pokedex/</a></p>
-      </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#cajaBanner"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#cajaBanner"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#cajaBanner"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/slider 1.webp"
+                class="d-block w-100 imgBanner"
+                alt="bitcoin"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider 2.webp"
+                class="d-block w-100 imgBanner"
+                alt="cajero"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider 3.webp"
+                class="d-block w-100 imgBanner"
+                alt="dolar"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#cajaBanner"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#cajaBanner"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div>
+          <p>
+            Las siguientes imagens fueron tomadas de
+            <a href="https://www.pokemon.com/el/pokedex/"
+              >https://www.pokemon.com/el/pokedex/</a
+            >
+          </p>
+        </div>
+      </section>
+      <section>
+        <article class="row justify-content-center">
+          <div class="card cardPokemon m-3">
+            <img src="img/bulbasaur.png" class="card-img-top" alt="bulbasaur" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">001</h5>
+              <h4>Bulbasaur</h4>
+              <p>
+                <span class="badge text-bg-success">planta</span>
+                <span class="badge rounded-pill text-bg-danger">Veneno</span>
+              </p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/ivysaur.png" class="card-img-top" alt="ivysaur" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">002</h5>
+              <h4>Ivysaur</h4>
+              <p>
+                <span class="badge text-bg-success">planta</span>
+                <span class="badge rounded-pill text-bg-danger">Veneno</span>
+              </p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/venasaur.png" class="card-img-top" alt="venasaur" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">003</h5>
+              <h4>Venasaur</h4>
+              <p>
+                <span class="badge text-bg-success">planta</span>
+                <span class="badge rounded-pill text-bg-danger">Veneno</span>
+              </p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img
+              src="img/charmander.png"
+              class="card-img-top"
+              alt="charmander"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">004</h5>
+              <h4>Charmander</h4>
+              <p><span class="badge text-bg-warning">fuego</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img
+              src="img/charmeleon.png"
+              class="card-img-top"
+              alt="charmeleon"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">005</h5>
+              <h4>Charmeleon</h4>
+              <p><span class="badge text-bg-warning">fuego</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/charizard.png" class="card-img-top" alt="charizard" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">006</h5>
+              <h4>Charizard</h4>
+              <p><span class="badge text-bg-warning">fuego</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/squirtle.png" class="card-img-top" alt="squirtle" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">007</h5>
+              <h4>Squirtle</h4>
+              <p><span class="badge text-bg-primary">Agua</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/wartortle.png" class="card-img-top" alt="wartortle" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">008</h5>
+              <h4>Bulbasaur</h4>
+              <p><span class="badge text-bg-primary">Agua</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/blastoide.png" class="card-img-top" alt="blastoide" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">009</h5>
+              <h4>Blastoide</h4>
+              <p><span class="badge text-bg-primary">Agua</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/caterpie.png" class="card-img-top" alt="caterpie" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">010</h5>
+              <h4>Caterpie</h4>
+              <p><span class="badge text-bg-success">Bicho</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img src="img/metapod.png" class="card-img-top" alt="metapod" />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">011</h5>
+              <h4>Metapod</h4>
+              <p><span class="badge text-bg-success">Bicho</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+          <div class="card cardPokemon m-3">
+            <img
+              src="img/butterfree.png"
+              class="card-img-top"
+              alt="butterfree"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-black-50">012</h5>
+              <h4>Butterfree</h4>
+              <p><span class="badge text-bg-success">Bicho</span></p>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
     <footer class="text-white bg-dark d-flex justify-content-center py-5">

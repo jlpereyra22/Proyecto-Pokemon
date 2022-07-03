@@ -1,5 +1,7 @@
 .imgBanner {
-    height: 300px;
-    object-fit: cover;
-  }
-  
+  height: 300px;
+  object-fit: cover;
+}
+.cardPokemon {
+  width: 18rem;
+}
