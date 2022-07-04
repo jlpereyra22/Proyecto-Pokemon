@@ -5,3 +5,7 @@
 .cardPokemon {
   width: 18rem;
 }
+.evoluciones{
+  background: rgb(216, 215, 215);
+  border-radius: 10px;
+}
